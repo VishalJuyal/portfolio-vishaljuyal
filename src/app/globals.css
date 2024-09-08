@@ -5,6 +5,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* margin: 0; */
+  /* padding: 0; */
+  /* box-sizing: border-box; */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,4 +27,18 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@keyframes gradient-xy {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-xy{
+  animation: gradient-xy 5s ease infinite;
+  background-size: 200% 200%;
 }
