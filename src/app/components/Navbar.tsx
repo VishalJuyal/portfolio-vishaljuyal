@@ -40,8 +40,8 @@ const Navbar = () => {
 
   return (
     <div className="text-white/70 pt-6 h-20 mb-5">
-      <div className="hidden md:flex items-center px-4 py-2 mx-auto max-w-[400px]">
-        <ul className="flex flex-row p-4 space-x-8">
+      <div className="hidden md:flex items-center justify-center px-4 py-2 mx-auto max-w-[400px]">
+        <ul className="flex flex-row p-4 space-x-6">
           {navLinks.map((link, index) => (
             <li key={index}>
               <Link href={link?.path}>{link?.title}</Link>
@@ -61,17 +61,19 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <div className="md:hidden absolute top-5 right-5 border rounded text-white/70 border-white/70 p-2 z-50">
+      <div
+        className="md:hidden absolute top-5 right-5 border rounded text-white/70 border-white/70 p-2 z-50"
+        onClick={toggleNav}
+      >
         {nav ? <AiOutlineAccountBook size={30} /> : <AiOutlineMenu size={30} />}
       </div>
-
       <motion.div
         initial={false}
         animate={nav ? `open` : `closed`}
         variants={menuVarient}
         className=""
       >
-        <ul className="text-4x1 font-semibold my-24 text-center space-y-8">
+        <ul className="text-4xl font-semibold my-24 text-center space-y-8">
           {navLinks.map((link, index) => (
             <li key={index}>
               <Link href={link?.path} onClick={closeNav}>
