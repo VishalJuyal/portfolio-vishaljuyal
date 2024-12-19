@@ -35,7 +35,7 @@ function Contact() {
       </div>
       <div className="bg-white/10 p-4 sm:p-6 rounded-xl max-w-full lg:max-w-[550px]">
         <h2 className="text-5xl font-bold text-orange-400 mb-4">
-          Let's connect
+          Let&apos;s connect
         </h2>
         <p className="text-white/70 mb-6">
           Send me a message and lets schedule a call!

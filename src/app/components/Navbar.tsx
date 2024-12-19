@@ -2,7 +2,6 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import React, { useState } from "react";
-import { isMobile } from "./common/utils";
 import { AiOutlineAccountBook, AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
