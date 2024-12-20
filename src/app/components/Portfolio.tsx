@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import project1 from "../assets/proj1.png";
-import project2 from "../assets/proj2.jpg";
+import project2 from "../assets/proj2.png";
 import project3 from "../assets/proj3.png";
 
 function Portfolio() {
@@ -28,8 +28,8 @@ function Portfolio() {
       title: "Meal Order App",
       desc: "Created a user-friendly food ordering application with ReactJS and CSS, allowing users to browse meals, add items to their cart, and place orders. The app focuses on simplicity and efficiency, ensuring a delightful user experience for meal selection and ordering.",
       devstack: "Reactjs,CSS,ContextAPI",
-      link: "#",
-      git: "#",
+      link: "https://meal-order-app-theta.vercel.app/",
+      git: "https://github.com/VishalJuyal/meal-order-app",
       src: project3,
     },
   ];
@@ -64,10 +64,17 @@ function Portfolio() {
                 {project.devstack}
               </p>
               <div className="w-4 h-[1px] bg-gray-400 my-4">
-                <a href={project.link} className="mr-6">
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mr-6"
+                >
                   Link
                 </a>
-                <a href={project.git}>Git</a>
+                <a href={project.git} target="_blank" rel="noopener noreferrer">
+                  Git
+                </a>
               </div>
             </div>
 
@@ -75,8 +82,8 @@ function Portfolio() {
               <Image
                 src={project.src}
                 alt={project.title}
-                height="170"
-                width="170"
+                width={800}
+                height={600}
                 className="h-[350px] w-auto object-cover border rounded border-gray-700"
               />
             </div>
