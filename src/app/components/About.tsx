@@ -3,7 +3,6 @@ import Image from "next/image";
 import book from "../assets/book.png";
 import pc from "../assets/pc.png";
 import card from "../assets/card.png";
-import finance from "../assets/finance.png";
 
 function About() {
   return (
