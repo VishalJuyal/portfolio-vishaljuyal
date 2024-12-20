@@ -1,11 +1,32 @@
 import React from "react";
-import { FaHtml5, FaCss3Alt, FaReact, FaJsSquare } from "react-icons/fa";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaReact,
+  FaJsSquare,
+  FaDatabase,
+} from "react-icons/fa";
+import {
+  SiNextdotjs,
+  SiNodedotjs,
+  SiMongodb,
+  SiPrisma,
+  SiNestjs,
+  SiExpress,
+} from "react-icons/si";
 
 const skillIcons = [
-  { icon: <FaHtml5 size={140} />, label: "HTML" },
-  { icon: <FaCss3Alt size={140} />, label: "CSS" },
   { icon: <FaReact size={110} />, label: "React" },
   { icon: <FaJsSquare size={140} />, label: "JavaScript" },
+  { icon: <SiNextdotjs size={140} />, label: "Next.js" },
+  { icon: <SiNodedotjs size={140} />, label: "Node.js" },
+  { icon: <SiMongodb size={140} />, label: "MongoDB" },
+  { icon: <SiPrisma size={140} />, label: "Prisma ORM" },
+  { icon: <SiNestjs size={140} />, label: "NestJS" },
+  { icon: <SiExpress size={140} />, label: "Express.js" },
+  { icon: <FaHtml5 size={140} />, label: "HTML" },
+  { icon: <FaCss3Alt size={140} />, label: "CSS" },
+  { icon: <FaDatabase size={140} />, label: "SQL" },
 ];
 
 const Skills = () => {

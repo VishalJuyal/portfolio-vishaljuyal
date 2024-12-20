@@ -28,17 +28,25 @@ body {
     text-wrap: balance;
   }
 }
+@layer base {
+  input:-webkit-autofill {
+    background-color: #000000 !important;
+    -webkit-text-fill-color: #ffffff !important;
+    box-shadow: 0 0 0px 1000px #000000 inset !important;
+  }
+}
 
 @keyframes gradient-xy {
-  0%, 100% {
+  0%,
+  100% {
     background-position: 0% 50%;
   }
-  50%{
+  50% {
     background-position: 100% 50%;
   }
 }
 
-.animate-gradient-xy{
+.animate-gradient-xy {
   animation: gradient-xy 5s ease infinite;
   background-size: 200% 200%;
 }
