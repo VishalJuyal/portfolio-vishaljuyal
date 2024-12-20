@@ -17,20 +17,20 @@ function Portfolio() {
       src: project1,
     },
     {
-      title: "Ecommerce Website",
-      desc: "Developed a dynamic ecommerce platform using ReactJS and CSS, featuring seamless API integration for fetching products. The platform includes an Add to Cart functionality, along with secure login and registration systems for users, providing a smooth and efficient shopping experienc",
-      devstack: "Reactjs,CSS,Redux",
-      link: "https://ecoomerce-store-vercel.vercel.app/",
-      git: "https://github.com/VishalJuyal/Ecommerce-store",
-      src: project2,
-    },
-    {
       title: "Meal Order App",
       desc: "Created a user-friendly food ordering application with ReactJS and CSS, allowing users to browse meals, add items to their cart, and place orders. The app focuses on simplicity and efficiency, ensuring a delightful user experience for meal selection and ordering.",
       devstack: "Reactjs,CSS,ContextAPI",
       link: "https://meal-order-app-theta.vercel.app/",
       git: "https://github.com/VishalJuyal/meal-order-app",
       src: project3,
+    },
+    {
+      title: "Ecommerce Website",
+      desc: "Developed a dynamic ecommerce platform using ReactJS and CSS, featuring seamless API integration for fetching products. The platform includes an Add to Cart functionality, along with secure login and registration systems for users, providing a smooth and efficient shopping experienc",
+      devstack: "Reactjs,CSS,Redux",
+      link: "https://ecoomerce-store-vercel.vercel.app/",
+      git: "https://github.com/VishalJuyal/Ecommerce-store",
+      src: project2,
     },
   ];
 
