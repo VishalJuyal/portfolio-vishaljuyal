@@ -5,6 +5,7 @@ import Image from "next/image";
 import project1 from "../assets/proj1.png";
 import project2 from "../assets/proj2.png";
 import project3 from "../assets/proj3.png";
+import project4 from "../assets/proj4.png";
 
 function Portfolio() {
   const projects = [
@@ -23,6 +24,15 @@ function Portfolio() {
       link: "https://meal-order-app-theta.vercel.app/",
       git: "https://github.com/VishalJuyal/meal-order-app",
       src: project3,
+    },
+    {
+      title: "Mental Health Care",
+      desc: "Mental Health Care is a platform designed to streamline mental health services. Users can securely register, log in, book appointments with professionals, and view their appointment history. It offers a user-friendly interface and efficient functionality to enhance access to mental health support.",
+      devstack:
+        "Next.js, TailwindCSS, Node.js, TypeScript, Express.js, and MongoDB",
+      link: "https://health-care-project-jz2jin460-vishaljuyals-projects.vercel.app/",
+      git: "https://github.com/VishalJuyal/healthCare-backend",
+      src: project4,
     },
     {
       title: "Ecommerce Website",
