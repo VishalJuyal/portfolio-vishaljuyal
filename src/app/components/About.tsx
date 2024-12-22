@@ -3,7 +3,6 @@ import Image from "next/image";
 import book from "../assets/book.png";
 import pc from "../assets/pc.png";
 import card from "../assets/card.png";
-import finance from "../assets/finance.png";
 
 function About() {
   return (
@@ -18,7 +17,7 @@ function About() {
             <Image
               src={book}
               alt="book"
-              className="w-auto h-[100px] sm:h-[130px]"
+              className="w-1/2 sm:w-auto h-auto sm:h-[130px] object-contain"
             />
             <div className="flex flex-col mt-4 sm:mt-0 sm:ml-4">
               <h2 className="text-xl sm:text-2xl font-bold text-white/80">
@@ -39,7 +38,7 @@ function About() {
             <Image
               src={pc}
               alt="pc"
-              className="w-auto h-[100px] sm:h-[130px]"
+              className="w-1/2 sm:w-auto h-auto sm:h-[130px] object-contain"
             />
             <div className="flex flex-col mt-4 sm:mt-0 sm:ml-4">
               <h2 className="text-xl sm:text-2xl font-bold text-white/80">
@@ -57,7 +56,7 @@ function About() {
             <Image
               src={card}
               alt="card"
-              className="w-auto h-[100px] sm:h-[130px]"
+              className="w-1/2 sm:w-auto h-auto sm:h-[130px] object-contain"
             />
             <div className="flex flex-col mt-4 sm:mt-0 sm:ml-4">
               <h2 className="text-xl sm:text-2xl font-bold text-white/80">
@@ -74,9 +73,9 @@ function About() {
           <div className="absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animate-gradient-xy"></div>
           <div className="flex flex-col sm:flex-row p-6">
             <Image
-              src={finance}
-              alt="finance"
-              className="w-auto h-[100px] sm:h-[130px]"
+              src={pc}
+              alt="pc"
+              className="w-1/2 sm:w-auto h-auto sm:h-[130px] object-contain"
             />
             <div className="flex flex-col mt-4 sm:mt-0 sm:ml-4">
               <h2 className="text-xl sm:text-2xl font-bold text-white/80">

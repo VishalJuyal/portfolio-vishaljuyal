@@ -4,11 +4,13 @@ import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 function Footer() {
   return (
     <div
-      className="mt-12 text-white/70 py-8 max-w-[1000px] mx-auto border-t border-gray-700
-  pt-4 flex justify-between items-center"
+      className="mt-12 text-white/70 py-8 max-w-[1000px] mx-auto border-t border-gray-700 pt-4 
+        flex flex-col sm:flex-row justify-between items-center sm:space-x-6"
     >
-      <h1 className="text-3xl font-bold">Vishal Juyal</h1>
-      <div className="flex space-x-6 mt-4">
+      <h1 className="text-3xl font-bold text-center sm:text-left">
+        Vishal Juyal
+      </h1>
+      <div className="flex space-x-6 mt-4 sm:mt-0 justify-center sm:justify-start">
         <a
           href="https://www.linkedin.com/in/vishal-juyal-b1328a208"
           target="_blank"
