@@ -38,7 +38,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="text-white/70 pt-6 h-20 mb-5 bg-[linear-gradient(to_bottom,#2B1942)] md:bg-transparent">
+    <div className="text-white/70 pt-6 h-20 bg-[#000] w-full">
       <div className="hidden md:flex items-center justify-center px-4 py-2 mx-auto max-w-[400px]">
         <ul className="flex flex-row p-4 space-x-6">
           {navLinks.map((link, index) => (
@@ -48,7 +48,7 @@ const Navbar = () => {
           ))}
           <li>
             <a href="#contact" className="group">
-              <h1 className="text-lg font bold text-white/70 cursor-pointer">
+              <h1 className="text-lg font-bold text-white/70 cursor-pointer">
                 Contact Me
               </h1>
               <div className="relative">
@@ -71,7 +71,7 @@ const Navbar = () => {
         initial={false}
         animate={nav ? `open` : `closed`}
         variants={menuVarient}
-        className={`absolute top-0 left-0 w-full bg-black p-6 z-40 transition-all`}
+        className="absolute top-0 left-0 w-full bg-[#2B1942] p-6 z-40 transition-all"
       >
         <ul className="text-4xl font-semibold text-white my-24 text-center space-y-8">
           {navLinks.map((link, index) => (
@@ -83,7 +83,7 @@ const Navbar = () => {
           ))}
           <li>
             <a href="#contact" className="group">
-              <h1 className="text-lg font bold text-white/70 cursor-pointer">
+              <h1 className="text-lg font-bold text-white/70 cursor-pointer">
                 Contact Me
               </h1>
             </a>

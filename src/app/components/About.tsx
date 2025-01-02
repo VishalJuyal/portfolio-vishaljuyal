@@ -6,8 +6,8 @@ import card from "../assets/card.png";
 
 function About() {
   return (
-    <div className="max-w-[1200px] mx-auto p-4" id="about">
-      <h1 className="text-white text-3xl sm:text-6xl max-w-[320px] mx-auto font-semibold p-4 mb-6">
+    <div className="w-full bg-[#000] mx-auto p-5" id="about">
+      <h1 className="text-white text-3xl sm:text-6xl max-w-[320px] mx-auto font-semibold p-4">
         About <span className="text-orange-400">Me</span>
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-8 gap-6 place-items-center">

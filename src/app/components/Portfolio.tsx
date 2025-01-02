@@ -46,13 +46,13 @@ function Portfolio() {
 
   return (
     <div
-      className="text-white bg-gradient-to-b from-black to-[#381a5f] py-12 sm:py-18 mt-16 sm:mt-52"
+      className="text-white bg-gradient-to-b from-black to-[#381a5f] py-12 sm:py-18"
       id="portfolio"
     >
       <h1 className="text-white text-4xl sm:text-6xl max-w-[320px] mx-auto font-semibold my-6 sm:my-12 text-center">
         Projects
       </h1>
-      <div className="max-w-[1200px] mx-auto mt-10 sm:mt-40 space-y-12 sm:space-y-24 px-4">
+      <div className="max-w-[1200px] mx-auto mt-10 sm:mt-40 space-y-12 sm:space-y-24 px-1">
         {projects.map((project, index) => (
           <motion.div
             key={index}

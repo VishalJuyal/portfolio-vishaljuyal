@@ -3,38 +3,40 @@ import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div
-      className="mt-12 text-white/70 py-8 max-w-[1000px] mx-auto border-t border-gray-700 pt-4 
+    <div className="bg-[#000]">
+      <div
+        className="text-white/70 py-8 max-w-[1000px] mx-auto border-t border-gray-700 pt-4
         flex flex-col sm:flex-row justify-between items-center sm:space-x-6"
-    >
-      <h1 className="text-3xl font-bold text-center sm:text-left">
-        Vishal Juyal
-      </h1>
-      <div className="flex space-x-6 mt-4 sm:mt-0 justify-center sm:justify-start">
-        <a
-          href="https://www.linkedin.com/in/vishal-juyal-b1328a208"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-gray-300"
-        >
-          <FaLinkedin size={24} />
-        </a>
-        <a
-          href="https://github.com/VishalJuyal"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-gray-300"
-        >
-          <FaGithub size={24} />
-        </a>
-        <a
-          href="https://x.com/VishalJuyal9"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-gray-300"
-        >
-          <FaTwitter size={24} />
-        </a>
+      >
+        <h1 className="text-3xl font-bold text-center sm:text-left">
+          Vishal Juyal
+        </h1>
+        <div className="flex space-x-6 mt-4 sm:mt-0 justify-center sm:justify-start">
+          <a
+            href="https://www.linkedin.com/in/vishal-juyal-b1328a208"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-300"
+          >
+            <FaLinkedin size={24} />
+          </a>
+          <a
+            href="https://github.com/VishalJuyal"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-300"
+          >
+            <FaGithub size={24} />
+          </a>
+          <a
+            href="https://x.com/VishalJuyal9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-300"
+          >
+            <FaTwitter size={24} />
+          </a>
+        </div>
       </div>
     </div>
   );
