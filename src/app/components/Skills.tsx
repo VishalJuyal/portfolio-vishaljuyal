@@ -5,6 +5,7 @@ import {
   FaReact,
   FaJsSquare,
   FaDatabase,
+  FaAws,
 } from "react-icons/fa";
 import {
   SiNextdotjs,
@@ -13,20 +14,25 @@ import {
   SiPrisma,
   SiNestjs,
   SiExpress,
+  SiTypescript,
+  SiPostgresql,
 } from "react-icons/si";
 
 const skillIcons = [
   { icon: <FaReact size={110} />, label: "React" },
   { icon: <FaJsSquare size={140} />, label: "JavaScript" },
+  { icon: <SiTypescript size={140} />, label: "TypeScript" },
   { icon: <SiNextdotjs size={140} />, label: "Next.js" },
   { icon: <SiNodedotjs size={140} />, label: "Node.js" },
-  { icon: <SiMongodb size={140} />, label: "MongoDB" },
-  { icon: <SiPrisma size={140} />, label: "Prisma ORM" },
-  { icon: <SiNestjs size={140} />, label: "NestJS" },
   { icon: <SiExpress size={140} />, label: "Express.js" },
+  { icon: <SiNestjs size={140} />, label: "NestJS" },
+  { icon: <SiMongodb size={140} />, label: "MongoDB" },
+  { icon: <SiPostgresql size={140} />, label: "PostgreSQL" },
+  { icon: <SiPrisma size={140} />, label: "Prisma ORM" },
+  { icon: <FaAws size={140} />, label: "AWS" },
+  { icon: <FaDatabase size={140} />, label: "SQL" },
   { icon: <FaHtml5 size={140} />, label: "HTML" },
   { icon: <FaCss3Alt size={140} />, label: "CSS" },
-  { icon: <FaDatabase size={140} />, label: "SQL" },
 ];
 
 const Skills = () => {
