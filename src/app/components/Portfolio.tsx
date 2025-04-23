@@ -6,6 +6,8 @@ import SimCore from "../assets/simCore.png"
 import simGraphs from "../assets/simGraphs.png"
 import sentiment from "../assets/sentiment.png";
 import chatbot from "../assets/chatbot.png";
+import asmNews from "../assets/asmNews.png"
+import asmNews2 from "../assets/asmNews2.png"
 import project1 from "../assets/projectAssimilate.png";
 import project2 from "../assets/proj1.png";
 import project3 from "../assets/proj2.png";
@@ -24,6 +26,14 @@ function Portfolio() {
       src: [project1, SimCore, chatbot, sentiment, simGraphs],
     },
     {
+      title: "Assimilate News Platform (Assimilate.news)",
+      desc: "• Developed a full-stack news platform for the Assimilate corp, delivering real-time updates, articles, and community insights to keep users informed about the coin’s ecosystem. Engineered the backend with Node.js and PostgreSQL for efficient content management and fast delivery of news data. Designed a sleek, responsive frontend using React.js, featuring a modern, minimalist UI with smooth navigation, dynamic content rendering, and a focus on readability and user engagement. Integrated PostHog for in-depth analysis of user visits, tracking behavior and engagement metrics to optimize the platform’s performance and user experience. Deployed the platform on AWS, ensuring scalability and high availability to support growing traffic and provide a seamless experience across devices.",
+      devstack: "ReactJs, TailwindCSS, Redux, NodeJs, PostGresSQL, LLM, AWS",
+      link: "https://assimilate.news/",
+      git: "",
+      src: [asmNews, asmNews2],
+    },
+    {
       title: "Chat App",
       desc: "real-time chat application using ReactJS and Firebase that allows users to communicate seamlessly. The app features instant messaging, the ability to share pictures and files alongside text, and a secure login and registration system powered by Firebase Authentication. With a responsive design for both mobile and desktop, it ensures a smooth and engaging experience. The integration of Firebase Cloud Storage enables reliable multimedia sharing, making conversations more dynamic and interactive.",
       devstack: "Reactjs,CSS,Redux,Firebase",
@@ -37,7 +47,7 @@ function Portfolio() {
       devstack: "Reactjs,CSS,ContextAPI",
       link: "https://meal-order-app-theta.vercel.app/",
       git: "https://github.com/VishalJuyal/meal-order-app",
-      src: [project3],
+      src: [project4],
     },
     {
       title: "Mental Health Care",
@@ -45,7 +55,7 @@ function Portfolio() {
       devstack: "Next.js, TailwindCSS, Node.js, TypeScript, Express.js, and MongoDB",
       link: "https://health-care-project-jz2jin460-vishaljuyals-projects.vercel.app/",
       git: "https://github.com/VishalJuyal/healthCare-backend",
-      src: [project4],
+      src: [project5],
     },
     {
       title: "Ecommerce Website",
@@ -53,7 +63,7 @@ function Portfolio() {
       devstack: "Reactjs,CSS,Redux",
       link: "https://ecoomerce-store-vercel.vercel.app/",
       git: "https://github.com/VishalJuyal/Ecommerce-store",
-      src: [project5],
+      src: [project3],
     },
   ];
 
