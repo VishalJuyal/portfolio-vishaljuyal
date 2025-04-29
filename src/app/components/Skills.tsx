@@ -32,7 +32,7 @@ const skillIcons = [
   { icon: <FaAws size={140} />, label: "AWS" },
   { icon: <FaDatabase size={140} />, label: "SQL" },
   { icon: <FaHtml5 size={140} />, label: "HTML" },
-  { icon: <FaCss3Alt size={140} />, label: "CSS" },
+  // { icon: <FaCss3Alt size={140} />, label: "CSS" },
 ];
 
 const Skills = () => {
