@@ -9,6 +9,11 @@ import chatbot from "../assets/chatbot.png";
 import asmNews from "../assets/asmNews.png"
 import asmNews2 from "../assets/asmNews2.png"
 import project1 from "../assets/projectAssimilate.png";
+import agritech1 from "../assets/agritech1.png";
+import agritech2 from "../assets/agritech2.png";
+import agritech3 from "../assets/agritech3.png";
+import agritech4 from "../assets/agritech4.png";
+import agritech5 from "../assets/agritech5.png";
 import project2 from "../assets/proj1.png";
 import project3 from "../assets/proj2.png";
 import project4 from "../assets/proj3.png";
@@ -17,6 +22,14 @@ import Slider from "react-slick";
 
 function Portfolio() {
   const projects = [
+    {
+      title: "Agromatic AI Commerce Platform",
+      desc: "Led the agriculture-focused ecommerce experience for Behtar Zindagi, combining a storefront, equipment catalog, and AI assistant into one stack. Built an AI-enabled chatbot that recommends implements, answers agronomy questions. Developed seller tooling, multilingual UX, and farmer onboarding journeys, while wiring secure Razorpay payment integration and analytics-driven event tracking.",
+      devstack: "Next.js, Node.js, TypeScript, PostgreSQL, TailwindCSS, shadcn/ui, Razorpay",
+      link: "https://agromatic.behtarzindagi.in/",
+      git: "",
+      src: [agritech1, agritech2, agritech3, agritech4, agritech5],
+    },
     {
       title: "Assimilate Cryptocurrency Platform (Assimilate.cc)",
       desc: "Developed a comprehensive full-stack platform for the Assimilate cryptocurrency, highlighting key metrics and analysis such as mindshare, market cap, holder distribution, sentiment ratings, and real-time price data with ChatBot. Engineered the backend with Node.js, PostgreSQL, and Prisma ORM for robust data management, utilizing Ether.js for seamless blockchain integration tailored to Assimilate. Built an interactive frontend using Vue.js, featuring real-time data visualization through dynamic graphs and an intuitive user interface. Integrated a real-time chatbot powered by a large language model (LLM) to provide instant user support and insights about the Assimilate coin. Deployed the platform on AWS, ensuring scalability and reliability.",
@@ -49,22 +62,22 @@ function Portfolio() {
       git: "https://github.com/VishalJuyal/meal-order-app",
       src: [project4],
     },
-    {
-      title: "Mental Health Care",
-      desc: "Mental Health Care is a platform designed to streamline mental health services. Users can securely register, log in, book appointments with professionals, and view their appointment history. It offers a user-friendly interface and efficient functionality to enhance access to mental health support.",
-      devstack: "Next.js, TailwindCSS, Node.js, TypeScript, Express.js, and MongoDB",
-      link: "https://health-care-project-jz2jin460-vishaljuyals-projects.vercel.app/",
-      git: "https://github.com/VishalJuyal/healthCare-backend",
-      src: [project5],
-    },
-    {
-      title: "Ecommerce Website",
-      desc: "Developed a dynamic ecommerce platform using ReactJS and CSS, featuring seamless API integration for fetching products. The platform includes an Add to Cart functionality, along with secure login and registration systems for users, providing a smooth and efficient shopping experienc",
-      devstack: "Reactjs,CSS,Redux",
-      link: "https://ecoomerce-store-vercel.vercel.app/",
-      git: "https://github.com/VishalJuyal/Ecommerce-store",
-      src: [project3],
-    },
+    // {
+    //   title: "Mental Health Care",
+    //   desc: "Mental Health Care is a platform designed to streamline mental health services. Users can securely register, log in, book appointments with professionals, and view their appointment history. It offers a user-friendly interface and efficient functionality to enhance access to mental health support.",
+    //   devstack: "Next.js, TailwindCSS, Node.js, TypeScript, Express.js, and MongoDB",
+    //   link: "https://health-care-project-jz2jin460-vishaljuyals-projects.vercel.app/",
+    //   git: "https://github.com/VishalJuyal/healthCare-backend",
+    //   src: [project5],
+    // },
+    // {
+    //   title: "Ecommerce Website",
+    //   desc: "Developed a dynamic ecommerce platform using ReactJS and CSS, featuring seamless API integration for fetching products. The platform includes an Add to Cart functionality, along with secure login and registration systems for users, providing a smooth and efficient shopping experienc",
+    //   devstack: "Reactjs,CSS,Redux",
+    //   link: "https://ecoomerce-store-vercel.vercel.app/",
+    //   git: "https://github.com/VishalJuyal/Ecommerce-store",
+    //   src: [project3],
+    // },
   ];
 
   const sliderSettings = {

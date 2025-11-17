@@ -24,10 +24,10 @@ function About() {
                 Education
               </h2>
               <p className="text-sm sm:text-lg text-white/70 mt-2">
-                I hold a Degree in Computer Science and I am focusing on
-                technologies like React, Next.js, Tailwind CSS, Node.js,
-                Express.js, Nest.js, and understanding databases like NoSQL,
-                MongoDB, Prisma, and more.
+                B.Tech in Computer Science from Maharshi Dayanand University,
+                grounded in algorithms, software engineering, and data
+                analytics, fueling a blend of solid fundamentals and modern
+                product thinking.
               </p>
             </div>
           </div>
@@ -45,7 +45,9 @@ function About() {
                 Problem-Solving
               </h2>
               <p className="text-sm sm:text-lg text-white/70 mt-2">
-                I approach challenges with a logical and systematic mindset.
+                I debug problems end-to-end, whether it’s scaling a RAG chatbot,
+                tuning SQL/Python pipelines, or optimizing UX flows for better
+                engagement.
               </p>
             </div>
           </div>
@@ -63,8 +65,8 @@ function About() {
                 Experience
               </h2>
               <p className="text-sm sm:text-lg text-white/70 mt-2">
-                I have more than a year of experience in real-world industry
-                with some great scalable projects.
+                I have more than two years of experience in real-world industry
+                with some great scalable projects like Assimilate, BehtarZindagi, and InsuranceDekho.
               </p>
             </div>
           </div>
@@ -82,11 +84,9 @@ function About() {
                 Technical Skills
               </h2>
               <p className="text-sm sm:text-lg text-white/70 mt-2">
-                As a Fullstack Developer, I specialize in React.js, Next.js,
-                Tailwind CSS, Node.js, Express.js, Nest.js, MongoDB, NoSQL,
-                Prisma. My expertise extends to creating responsive, scalable
-                applications with user-friendly interfaces and efficient backend
-                solutions.
+                Full-stack + AI toolkit: React, Next.js, Tailwind, Node.js,
+                Express, NestJS, Python/FastAPI, LangChain, SQL, MongoDB,
+                PostgreSQL, Prisma, AWS, Docker, and vector DBs such as Faiss.
               </p>
             </div>
           </div>

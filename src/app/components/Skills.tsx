@@ -16,7 +16,9 @@ import {
   SiExpress,
   SiTypescript,
   SiPostgresql,
+  SiPython,
 } from "react-icons/si";
+import { GiArtificialIntelligence } from "react-icons/gi";
 
 const skillIcons = [
   { icon: <FaReact size={110} />, label: "React" },
@@ -31,6 +33,8 @@ const skillIcons = [
   { icon: <SiPrisma size={140} />, label: "Prisma ORM" },
   { icon: <FaAws size={140} />, label: "AWS" },
   { icon: <FaDatabase size={140} />, label: "SQL" },
+  { icon: <SiPython size={140} />, label: "Python" },
+  { icon: <GiArtificialIntelligence size={140} />, label: "AI" },
   { icon: <FaHtml5 size={140} />, label: "HTML" },
   { icon: <FaCss3Alt size={140} />, label: "CSS" },
 ];
@@ -39,7 +43,7 @@ const Skills = () => {
   return (
     <div className="bg-[linear-gradient(to_top,#000,#381a5f_80%)] py-32">
       <div className="text-white max-w-[950px] md:min-w-[950px] mx-auto p-8 text-center">
-        <h2 className="text-6xl font-bold mb-12">What I Do</h2>
+        <h2 className="text-6xl font-bold mb-12">Skills</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {skillIcons.map((skill, index) => (
             <div
