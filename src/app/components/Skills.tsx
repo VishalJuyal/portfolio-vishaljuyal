@@ -36,7 +36,7 @@ const skillIcons = [
   { icon: <SiPython size={140} />, label: "Python" },
   { icon: <GiArtificialIntelligence size={140} />, label: "AI" },
   { icon: <FaHtml5 size={140} />, label: "HTML" },
-  { icon: <FaCss3Alt size={140} />, label: "CSS" },
+  // { icon: <FaCss3Alt size={140} />, label: "CSS" },
 ];
 
 const Skills = () => {
